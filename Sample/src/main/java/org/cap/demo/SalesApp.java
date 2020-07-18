@@ -7,7 +7,8 @@ public class SalesApp {
 	public void printdata() {
 		int sum=0;
 		for(int num:arr) {
-			sum+=num;
+			//sum+=num;
+			sum=sum+num;
 			System.out.println(num);
 		}
 		System.out.println("Sum:" + sum);
