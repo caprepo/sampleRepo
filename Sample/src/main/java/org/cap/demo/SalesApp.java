@@ -5,7 +5,11 @@ public class SalesApp {
 	int[] arr= {12,34,56,78,89};
 	
 	public void printdata() {
-		for(int num:arr)
+		int sum=0;
+		for(int num:arr) {
+			sum+=num;
 			System.out.println(num);
+		}
+		System.out.println("Sum:" + sum);
 	}
 }
