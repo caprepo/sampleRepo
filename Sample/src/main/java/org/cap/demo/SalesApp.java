@@ -6,10 +6,11 @@ public class SalesApp {
 	
 	public void printdata() {
 		int sum=0;
-		for(int num:arr) {
+		//for(int num:arr) {
+		for(int i=0;i<arr.length;i++) {
 			//sum+=num;
-			sum=sum+num;
-			System.out.println(num);
+			sum=sum+arr[i];
+			System.out.println(arr[i]);
 		}
 		System.out.println("Sum:" + sum);
 	}
